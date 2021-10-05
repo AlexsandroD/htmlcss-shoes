@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: 'Roboto Mono', monospace;}
 
 .wrap{
     width: 100%;
@@ -39,7 +38,7 @@
 }
 
 .container{
-
+    
     width: 100%;
     margin: auto;
     
@@ -48,42 +47,96 @@
 
 
 #box1{
+    position: relative;
     width: 100%;
     height: 100vh;
     background: red;
-    text-align: center;
+    
+   
 }
 
+ h3{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 #box2{
+    position: relative;
     width: 100%;
     height: 100vh;
     background: green;
+    
+   
 }
+
+
+
 
 #box3{
+    position: relative;
     width: 100%;
     height: 100vh;
-    background: yellow;
+    background-color: yellow;  
 }
 
-.scarpa{
-   width: 300px;
-   height: 200px;
-   margin: auto;
-   background-image: url(../img/01.png);
-   background-size: cover;
-   z-index: 2;
+
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
    
 }
   
-.text{
+
+.scarpa1{
    
+   width: 100%;
+   height: 300px;
+   margin: auto;
+   padding-bottom: 50px;
+   background-image: url(../img/01.png);
+   background-size: cover;
+}
+
+.scarpa2{
+   
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 50px;
+    background-image: url(../img/02.png);
+    background-size: cover;
+ }
+ .scarpa3{
+   
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    padding-bottom: 50px;
+    background-image: url(../img/03.png);
+    background-size: cover;
+ }
+  
+
+
+  
+.text1{
     font-size: 30px;
     color: yellow;
     text-transform: uppercase;
-    font-weight: 900;
-    padding-bottom: 300px;
-    
+    font-weight: 900;    
+}
+
+.text-green{
+    font-size: 30px;
+    color: green;
+    text-transform: uppercase;
+    font-weight: 900; 
+
 }
 
 
