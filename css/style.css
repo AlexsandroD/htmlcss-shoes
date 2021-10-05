@@ -64,6 +64,14 @@
     height: 100vh;
     background: yellow;
 }
+
+.scarpa{
+   width: 300px;
+   height: 200px;
+   background-image: url(/img/01.png);
+   background-size: cover;
+   z-index: 2;
+}
   
 .text{
    
